@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <h2 class="ml-5 pl-5" id="demo">0</h2>
+    <button class="btn btn-primary ml-3" onclick="increment()">Increment</button>
+    <button class="btn btn-danger" onclick="decrement()">Decrement</button>
+    <!-- dorlla -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="text-center">Convert Dollar To L.E</h1>
+                <form onsubmit="return convertdorlla()">
+                    <input type="text" name="dorlla" placeholder="Enter amount of dollar" class="form-control my-3"  id="dorlla">
+                    <input type="submit" class="btn btn-success btn-block" value="Convert">
+                </form>
+                <h3 class="mt-2" id="result"></h3>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
